@@ -1,0 +1,909 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>ProFolio</title>
+<meta charset="utf-8" />
+<meta name="viewport"
+	content="width=device-width, initial-scale=1, user-scalable=no" />
+<link rel="stylesheet" href="assets/css/main.css" />
+<noscript>
+	<link rel="stylesheet" href="assets/css/noscript.css" />
+</noscript>
+<style>
+/* Slideshow container */
+.slideshow-container {
+	max-width: 1000px;
+	position: relative;
+	margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+	cursor: pointer;
+	position: absolute;
+	top: 50%;
+	width: auto;
+	padding: 16px;
+	margin-top: -22px;
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+	transition: 0.6s ease;
+	border-radius: 0 3px 3px 0;
+}
+
+/* Position the "next button" to the right */
+.next {
+	right: 0;
+	border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+	background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* The dots/bullets/indicators */
+.dot {
+	cursor: pointer;
+	height: 15px;
+	width: 15px;
+	margin: 0 2px;
+	background-color: #bbb;
+	border-radius: 50%;
+	display: inline-block;
+	transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+	background-color: #717171;
+}
+
+.proj1 {
+	max-width: 80%;
+	height: auto;
+	border-radius: 10px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.proj2 {
+	width: 30%;
+	height: 30%;
+	display: block;
+	border-radius: 10px;
+	margin-left: 40px;
+	margin-top: 20px;
+	margin-bottom: 50px;
+	border-radius: 10px;
+}
+
+.proj3 {
+	width: 30%;
+	height: 30%;
+	display: block;
+	border-radius: 10px;
+	margin-left: 60px;
+	margin-top: 20px;
+	margin-bottom: 50px;
+	border-radius: 10px;
+}
+
+#workTable>* {
+	-moz-transition: opacity 0.325s ease-in-out;
+	-webkit-transition: opacity 0.325s ease-in-out;
+	-ms-transition: opacity 0.325s ease-in-out;
+	transition: opacity 0.325s ease-in-out;
+	position: relative;
+	margin-top: 3.5rem;
+}
+
+#workTable>:first-child {
+	margin-top: 0;
+}
+
+#workTable>:first-child:before {
+	display: none;
+}
+
+#workTable nav ul {
+	width: 70%;
+	margin-bottom: 7%;
+	list-style: none;
+	border: solid 1px #ffffff;
+	border-radius: 4px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 7%;
+	padding-left: 0px;
+}
+
+#workTable nav ul li {
+	padding-left: 0px;
+}
+
+#workTable nav ul li:first-child {
+	border-left: 0;
+}
+
+#workTable nav ul li a {
+	display: block;
+	min-width: 7.5rem;
+	height: 2.75rem;
+	line-height: 2.75rem;
+	padding: 0 1.25rem 0 1.45rem;
+	text-transform: uppercase;
+	letter-spacing: 0.2rem;
+	font-size: 0.8rem;
+	border-bottom: 0;
+}
+
+#workTable nav ul li a:hover {
+	background-color: rgba(255, 255, 255, 0.075);
+}
+
+#workTable nav ul li a:active {
+	background-color: rgba(255, 255, 255, 0.175);
+}
+
+#workTable nav.use-middle:after {
+	content: '';
+	display: block;
+	position: absolute;
+	top: 0;
+	left: calc(50% - 1px);
+	width: 1px;
+	height: 100%;
+	background: #ffffff;
+}
+
+#workTable nav.use-middle ul li.is-middle {
+	border-left: 0;
+}
+</style>
+</head>
+<body class="is-preload">
+
+	<!-- Wrapper -->
+	<div id="wrapper">
+
+		<!-- Header -->
+		<header id="header">
+			<div class="content">
+				<div class="inner">
+					<h1>ProtFolio</h1>
+					<p>Mun Hyun Jenog</p>
+				</div>
+			</div>
+			<nav>
+				<ul>
+					<li><a href="#intro">Intro</a></li>
+					<li><a href="#research">Research</a></li>
+					<li><a href="#work">Work</a></li>
+					<li><a href="#contact">Contact</a></li>
+				</ul>
+			</nav>
+		</header>
+
+		<!-- Main -->
+		<div id="main">
+
+			<!-- Intro -->
+			<article id="intro">
+				<h2 class="major">Intro</h2>
+				<div>
+					<h3 class="major">WHO?</h3>
+					<img src="images/me.jpg" align="left" 
+						style="margin-right: 5%; margin-left: 3%; margin-bottom: 5%; border-radius: 10px;" />
+					<ul style="list-style-type: none; margin-top: 60px;">
+						<li style="margin-bottom: 20px;"><strong>문현정 ( Mun
+								Hyun Jenog )</strong></li>
+						<li style="margin-bottom: 20px;"><strong>Education</strong>
+							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 동덕여대 컴퓨터학과 재학 중</li>
+						<li style="margin-bottom: 20px;"><strong>Motto</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+							내가 선택한 것에 책임을 회피하지 말자</li>
+						<li><strong>Github</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;https://github.com/HyunJeongMun</li>
+					</ul>
+
+				</div>
+
+				<br> <br>
+
+				<h3 class="major">Skill</h3>
+				<span><img src="images/skills.jpg" alt=""
+					style="max-width: 100%; height: auto; border-radius: 20px;" /></span> <br>
+
+				<br>
+				<h3 class="major">수상 및 활동</h3>
+				<table style="text-align: center; font-size: 13pt">
+					<tr>
+						<td>교내 컴퓨터학과 프로그래밍 경진 대회 동상</td>
+						<td>2019.11.11</td>
+					</tr>
+					<tr>
+						<td>교내 컴퓨터학과 소프트웨어 경진대회 장려상</td>
+						<td>2020.11.06</td>
+					</tr>
+					<tr>
+						<td>한이음 프로젝트 - 네트워크 보안</td>
+						<td>2020.03 - 2020.12</td>
+					</tr>
+				</table>
+
+				<br>
+				<h3 class="major">자격증</h3>
+				<table style="text-align: center; font-size: 13pt">
+					<tr>
+						<td>리눅스 마스터 2급</td>
+						<td>2020.10.23</td>
+					</tr>
+					<tr>
+						<td>네트워크 관리사 2급</td>
+						<td>2021.01.23</td>
+					</tr>
+				</table>
+			</article>
+
+			<!-- About -->
+			<article id="research">
+				<h2 class="major">Research</h2>
+				<br>
+				<h3 class="major">ABSTRACT</h3>
+				최근 네트워크 기술을 이용한 다양한 응용 분야의 증가와 기하급수적인 요구로 인한 공급으로 인한 여러 보안 취약점이
+				생겨나면서 이에 대응 할 보안이 요구되고 있다. 특히 IPv4 주소 자원의 부족으로 IPv6의 공급의 증가가 예상되면서
+				IPv6 주소 메카니즘의 보안 강화는 충분히 고려되어야 한다. 본 논문은 IPv6 네트워크 환경에서 IP 계층과 데이터
+				링크 계층 보안 프로토콜인 IPsec과 MACsec을 구현하면서 각 보안 프로토콜의 방어 기법과 성능을 확인했다. 이를
+				통해 IPsec와 MACsec의 병행 사용으로 외부 LAN의 데이터 기밀성과 무결성을 유지하고 내부 LAN의 Dos
+				Attack, MITM Attack을 방어하는 강력한 보안 기법임을 제시하였다. <br> <br>
+				<h3 class="major">목차</h3>
+				<ul style="list-style: none; padding-left: 0px;">
+					<li>ABSTRACT</li>
+					<li>1. 서론</li>
+					<li>2. IPsec MACsec 과 공격 및 방어 시나리오</li>
+					<li>3. 실험</li>
+					<li>4. 결론</li>
+					<li>REFERENCES</li>
+				</ul>
+				<button style="float: right; margin: 5px;"
+					onclick="window.location.href='./assets/paper.pdf'">논문 전체
+					보기</button>
+				&nbsp; &nbsp;
+				<button style="float: right; margin: 5px;"
+					onclick="window.location.href='./assets/longver.pdf'">논문
+					전체 보기(long)</button>
+
+			</article>
+
+			<!-- Work -->
+			<article id="work">
+				<h2 class="major">Work</h2>
+				<div id="workTable">
+					<nav>
+						<ul>
+							<li><a href="#nth">N차 창작 웹사이트</a></li>
+							<li><a href="#medi">주변 병원 및 약국 찾기 앱</a></li>
+							<li><a href="#wom">여성 안전 앱</a></li>
+						</ul>
+					</nav>
+
+				</div>
+			</article>
+
+			<article id="nth">
+				<h2 class="major">N차 창작 웹사이트</h2>
+				<img class="proj1" src="images/proj1_1.png" /> <img class="proj1"
+					src="images/proj1_2.png" /> <img class="proj1"
+					src="images/proj1_3.png" /> <img class="proj1"
+					src="images/proj1_4.png" /><img class="proj1"
+					src="images/proj1_5.png" /><img class="proj1"
+					src="images/proj1_6.png" /> <img class="proj1"
+					src="images/proj1_7.png" /><img class="proj1"
+					src="images/proj1_8.png" /><img class="proj1"
+					src="images/proj1_9.png" /><img class="proj1"
+					src="images/proj1_10.png" /><img class="proj1"
+					src="images/proj1_11.png" /><img class="proj1"
+					src="images/proj1_12.png" /><img class="proj1"
+					src="images/proj1_13.png" />
+
+				<div style="text-align: center">
+					<span class="dot" onclick="currentSlide1(1)"></span> <span
+						class="dot" onclick="currentSlide1(2)"></span> <span class="dot"
+						onclick="currentSlide1(3)"></span><span class="dot"
+						onclick="currentSlide1(4)"></span><span class="dot"
+						onclick="currentSlide1(5)"></span><span class="dot"
+						onclick="currentSlide1(6)"></span><span class="dot"
+						onclick="currentSlide1(7)"></span><span class="dot"
+						onclick="currentSlide1(8)"></span><span class="dot"
+						onclick="currentSlide1(9)"></span><span class="dot"
+						onclick="currentSlide1(10)"></span><span class="dot"
+						onclick="currentSlide1(11)"></span><span class="dot"
+						onclick="currentSlide1(12)"></span><span class="dot"
+						onclick="currentSlide1(13)"></span>
+
+
+				</div>
+
+				<script type="text/javascript">
+					var slideIndex1 = 1;
+					showSlides1(slideIndex1);
+
+					function plusSlides1(n) {
+						showSlides1(slideIndex1 += n);
+					}
+
+					function currentSlide1(n) {
+						showSlides1(slideIndex1 = n);
+					}
+
+					function showSlides1(n) {
+						var i;
+						var slides = document.getElementsByClassName("proj1");
+						var dots = document.getElementsByClassName("dot");
+						if (n > slides.length) {
+							slideIndex = 1
+						}
+						if (n < 1) {
+							slideIndex1 = slides.length
+						}
+						for (i = 0; i < slides.length; i++) {
+							slides[i].style.display = "none";
+						}
+						for (i = 0; i < dots.length; i++) {
+							dots[i].className = dots[i].className.replace(
+									" active", "");
+						}
+						slides[slideIndex1 - 1].style.display = "block";
+						dots[slideIndex1 - 1].className += " active";
+					}
+				</script>
+
+
+				<br> <br>
+				<ul style="list-style-type: square;">
+					<li><b>프로젝트 개요</b>
+						<ul>
+							<li>n차 창작이 가능한 음악 공유 웹사이트</li>
+							<li>n차 창작이란? 원작을 기반으로 2차 창작을 하고, 2차 창작 작품을 다시 재창작하여 3차 창작을
+								만드는 일을 n번 반복한 것이 n차 창작</li>
+							<li>많은 이들이 자신의 음악을 공유하고 이를 바탕으로 2차, 3차 등 n차 창작을 통해 서로의 작품들을
+								발전시켜보고자 하는 목적</li>
+							<li>아티스트를 구인할 수 있고 음악 추천 기능과 장르별 차트, DM 등의 기능 수행</li>
+						</ul></li>
+					<li><b>담당업무</b>
+						<ul>
+							<li>n차 창작에 대한 아이디에 제시</li>
+							<li>n차 창작 게시판의 DB설계, View(JSP), Controller, DAO, DTO 등 전체적으로
+								구현</li>
+							<li>한달안에 n차 창작 게시판에 게시된 글 중 좋아요가 가장 높은 10개 장르별 차트를 전반적으로 구현</li>
+						</ul></li>
+					<li><b>사용기술</b>
+						<ul>
+							<li>JAVA, JSP, CSS, Javascript, Oracle(SQL), JDBC</li>
+						</ul></li>
+					<li><b>github</b>
+						<ul>
+							<li>https://github.com/janu01ary/happyCircuit.git</li>
+						</ul></li>
+				</ul>
+			</article>
+
+			<article id="medi">
+				<h2 class="major">주변 병원 및 약국 찾기 앱</h2>
+
+				<div style="margin-left: 7%">
+					<span class="dot" onclick="currentSlide2(1)"></span> <span
+						class="dot" onclick="currentSlide2(2)"></span> <span class="dot"
+						onclick="currentSlide2(3)"></span><span class="dot"
+						onclick="currentSlide2(4)"></span><span class="dot"
+						onclick="currentSlide2(5)"></span><span class="dot"
+						onclick="currentSlide2(6)"></span><span class="dot"
+						onclick="currentSlide2(7)"></span><span class="dot"
+						onclick="currentSlide2(8)"></span><span class="dot"
+						onclick="currentSlide2(9)"></span><span class="dot"
+						onclick="currentSlide2(10)"></span><span class="dot"
+						onclick="currentSlide2(11)"></span><span class="dot"
+						onclick="currentSlide2(12)"></span><span class="dot"
+						onclick="currentSlide2(13)"></span>
+				</div>
+
+				<img class="proj2" align="left" src="images/proj2_1.jpg" /> <img
+					class="proj2" align="left" src="images/proj2_2.jpg" /> <img
+					class="proj2" align="left" src="images/proj2_3.jpg" /> <img
+					class="proj2" align="left" src="images/proj2_4.jpg" /> <img
+					class="proj2" align="left" src="images/proj2_5.jpg" /> <img
+					class="proj2" align="left" src="images/proj2_6.jpg" /> <img
+					class="proj2" align="left" src="images/proj2_7.jpg" /> <img
+					class="proj2" align="left" src="images/proj2_8.jpg" /> <img
+					class="proj2" align="left" src="images/proj2_9.jpg" /> <img
+					class="proj2" align="left" src="images/proj2_10.jpg" /> <img
+					class="proj2" align="left" src="images/proj2_11.jpg" /> <img
+					class="proj2" align="left" src="images/proj2_12.jpg" /> <img
+					class="proj2" align="left" src="images/proj2_13.jpg" />
+
+
+
+				<script type="text/javascript">
+					var slideIndex2 = 1;
+					showSlides2(slideIndex2);
+
+					function plusSlides2(n) {
+						showSlides2(slideIndex2 += n);
+					}
+
+					function currentSlide2(n) {
+						showSlides2(slideIndex2 = n);
+					}
+
+					function showSlides2(n) {
+						var i;
+						var slides = document.getElementsByClassName("proj2");
+						var dots = document.getElementsByClassName("dot");
+						if (n > slides.length) {
+							slideIndex = 1
+						}
+						if (n < 1) {
+							slideIndex2 = slides.length
+						}
+						for (i = 0; i < slides.length; i++) {
+							slides[i].style.display = "none";
+						}
+						for (i = 0; i < dots.length; i++) {
+							dots[i].className = dots[i].className.replace(
+									" active", "");
+						}
+						slides[slideIndex2 - 1].style.display = "block";
+						dots[slideIndex2 - 1].className += " active";
+					}
+				</script>
+
+				<ul style="list-style-type: square; float: right; margin-top: 10%;">
+					<li><b>프로젝트 개요</b>
+						<ul>
+							<li>위치 정보를 기반으로 주변의 병원 및 약국을 찾는 앱</li>
+							<li>부가적인 기능으로 메모와 사진과 함꼐 즐겨찾기에 추가할 수 있다.</li>
+							<li>즐겨찾기에 추가된 병원 및 약국은 상세페이지를 캡처해 이를 공유할 수 있다.</li>
+						</ul></li>
+					<li><b>담당업무</b>
+						<ul>
+							<li>GPS를 이용한 위치기반 기능 구현</li>
+							<li>SQLite DB 연결, Open API 연결 및 XML 파싱</li>
+							<li>페이지 캡처 후 사진 공유 기능 구현</li>
+						</ul></li>
+					<li><b>사용기술</b>
+						<ul>
+							<li>JAVA, XML & API, SQL(SQLite)</li>
+						</ul></li>
+					<li><b>github</b>
+						<ul>
+							<li>https://github.com/HyunJeongMun/App.git</li>
+						</ul></li>
+				</ul>
+
+			</article>
+
+			<article id="wom">
+				<h2 class="major">여성 안전 앱</h2>
+				<div style="margin-left: 5.5%">
+					<span class="dot" onclick="currentSlide(1)"></span> <span
+						class="dot" onclick="currentSlide(2)"></span> <span class="dot"
+						onclick="currentSlide(3)"></span><span class="dot"
+						onclick="currentSlide(4)"></span><span class="dot"
+						onclick="currentSlide(5)"></span><span class="dot"
+						onclick="currentSlide(6)"></span><span class="dot"
+						onclick="currentSlide(7)"></span><span class="dot"
+						onclick="currentSlide(8)"></span><span class="dot"
+						onclick="currentSlide(9)"></span><span class="dot"
+						onclick="currentSlide(10)"></span><span class="dot"
+						onclick="currentSlide(11)"></span><span class="dot"
+						onclick="currentSlide(13)"></span><span class="dot"
+						onclick="currentSlide(14)"></span><span class="dot"
+						onclick="currentSlide(15)"></span><span class="dot"
+						onclick="currentSlide(16)"></span><span class="dot"
+						onclick="currentSlide(17)"></span><span class="dot"
+						onclick="currentSlide(18)"></span><span class="dot"
+						onclick="currentSlide(19)"></span><span class="dot"
+						onclick="currentSlide(20)"></span><span class="dot"
+						onclick="currentSlide(21)"></span>
+				</div>
+				<img class="proj3" src="images/proj3_1.jpg" align="left" /> <img
+					class="proj3" src="images/proj3_2.jpg" align="left" /> <img
+					class="proj3" align="left" src="images/proj3_3.jpg" /> <img
+					class="proj3" align="left" src="images/proj3_4.jpg" /> <img
+					class="proj3" align="left" src="images/proj3_5.jpg" /> <img
+					class="proj3" align="left" src="images/proj3_6.jpg" /> <img
+					class="proj3" align="left" src="images/proj3_7.jpg" /> <img
+					class="proj3" align="left" src="images/proj3_8.jpg" /> <img
+					class="proj3" align="left" src="images/proj3_9.jpg" /> <img
+					class="proj3" align="left" src="images/proj3_10.jpg" /> <img
+					class="proj3" align="left" src="images/proj3_11.jpg" /> <img
+					class="proj3" align="left" src="images/proj3_13.jpg" /> <img
+					class="proj3" align="left" src="images/proj3_14.jpg" /> <img
+					class="proj3" align="left" src="images/proj3_15.jpg" /> <img
+					class="proj3" align="left" src="images/proj3_16.jpg" /> <img
+					class="proj3" align="left" src="images/proj3_17.jpg" /> <img
+					class="proj3" align="left" src="images/proj3_18.jpg" /> <img
+					class="proj3" align="left" src="images/proj3_19.jpg" /> <img
+					class="proj3" align="left" src="images/proj3_20.jpg" /> <img
+					class="proj3" align="left" src="images/proj3_21.jpg" />
+
+
+				<script type="text/javascript">
+					var slideIndex = 1;
+					showSlides(slideIndex);
+
+					function plusSlides(n) {
+						showSlides(slideIndex += n);
+					}
+
+					function currentSlide(n) {
+						showSlides(slideIndex = n);
+					}
+
+					function showSlides(n) {
+						var i;
+						var slides = document.getElementsByClassName("proj3");
+						var dots = document.getElementsByClassName("dot");
+						if (n > slides.length) {
+							slideIndex = 1
+						}
+						if (n < 1) {
+							slideIndex = slides.length
+						}
+						for (i = 0; i < slides.length; i++) {
+							slides[i].style.display = "none";
+						}
+						for (i = 0; i < dots.length; i++) {
+							dots[i].className = dots[i].className.replace(
+									" active", "");
+						}
+						slides[slideIndex - 1].style.display = "block";
+						dots[slideIndex - 1].className += " active";
+					}
+				</script>
+
+
+				<ul style="list-style-type: square; float: right; margin-top: 7%;">
+					<li><b>프로젝트 개요</b>
+						<ul>
+							<li>여성을 위한 다양한 서비스를 제공하는 앱</li>
+							<li>cctv, 여성 안심 택배함, 경찰서, 여성 지킴이집의 위치를 제공</li>
+							<li>여성 커뮤니티를 제공하여 정보를 공유하고 서로의 유대를 높인다.</li>
+							<li>여성 정책을 조회할 수 있는 기능을 제공</li>
+						</ul></li>
+					<li><b>담당업무</b>
+						<ul>
+							<li>여성 안전을 위한 다양한 시설을 위치 기반으로 알려주는 아이디어 제공</li>
+							<li>GPS를 이용한 위치기반 기능 구현</li>
+							<li>커뮤니티 로그인/회원가입 기능 구현</li>
+							<li>앱과 웹서버 PHPMyAdmin를 php로 연결</li>
+						</ul></li>
+					<li><b>사용기술</b>
+						<ul>
+							<li>JAVA, PHP, XML & API</li>
+						</ul></li>
+					<li><b>github (웹서버 도메인 사용 중지로 제대로 운영되지 않을 수 있습니다.)</b>
+						<ul>
+							<li>https://github.com/janu01ary/forws.git</li>
+						</ul></li>
+				</ul>
+			</article>
+
+			<!-- Contact -->
+			<script type="text/javascript">
+			
+				function send(){
+					var name = document.getElementById('name').value;
+					var from = document.getElementById('email').value;
+					var message = document.getElementById('message').value;
+					
+					location.href='mailto:s205044s@naver.com?subject=' + name + '님께서 보내셨습니다.' + '&body=' + message + '&cc=' + from;
+				}
+			</script>
+			<article id="contact">
+				<h2 class="major">Contact</h2>
+				<form method="post">
+					<div class="fields">
+						<div class="field half">
+							<label for="name">Name</label> <input type="text" name="name" required
+								id="name" />
+						</div>
+						<div class="field half">
+							<label for="email"> Reference Email</label> <input type="text" name="email"
+								id="email" />
+						</div>
+						<div class="field">
+							<label for="message">Message</label>
+							<textarea name="message" id="message" rows="4"></textarea>
+						</div>
+					</div>
+					<ul class="actions">
+						<li><input type="reset" value="Send Message" class="primary" onclick="send()"/></li>
+						<li><input type="reset" value="Reset" /></li>
+					</ul>
+				</form>
+			</article>
+
+			<!-- Elements -->
+			<article id="elements">
+				<h2 class="major">Elements</h2>
+
+				<section>
+					<h3 class="major">Text</h3>
+					<p>
+						This is <b>bold</b> and this is <strong>strong</strong>. This is <i>italic</i>
+						and this is <em>emphasized</em>. This is <sup>superscript</sup>
+						text and this is <sub>subscript</sub> text. This is <u>underlined</u>
+						and this is code:
+						<code>for (;;) { ... }</code>
+						. Finally, <a href="#">this is a link</a>.
+					</p>
+					<hr />
+					<h2>Heading Level 2</h2>
+					<h3>Heading Level 3</h3>
+					<h4>Heading Level 4</h4>
+					<h5>Heading Level 5</h5>
+					<h6>Heading Level 6</h6>
+					<hr />
+					<h4>Blockquote</h4>
+					<blockquote>Fringilla nisl. Donec accumsan interdum
+						nisi, quis tincidunt felis sagittis eget tempus euismod.
+						Vestibulum ante ipsum primis in faucibus vestibulum. Blandit
+						adipiscing eu felis iaculis volutpat ac adipiscing accumsan
+						faucibus. Vestibulum ante ipsum primis in faucibus lorem ipsum
+						dolor sit amet nullam adipiscing eu felis.</blockquote>
+					<h4>Preformatted</h4>
+					<pre>
+						<code>i = 0;
+
+while (!deck.isInOrder()) {
+    print 'Iteration ' + i;
+    deck.shuffle();
+    i++;
+}
+
+print 'It took ' + i + ' iterations to sort the deck.';</code>
+					</pre>
+				</section>
+
+				<section>
+					<h3 class="major">Lists</h3>
+
+					<h4>Unordered</h4>
+					<ul>
+						<li>Dolor pulvinar etiam.</li>
+						<li>Sagittis adipiscing.</li>
+						<li>Felis enim feugiat.</li>
+					</ul>
+
+					<h4>Alternate</h4>
+					<ul class="alt">
+						<li>Dolor pulvinar etiam.</li>
+						<li>Sagittis adipiscing.</li>
+						<li>Felis enim feugiat.</li>
+					</ul>
+
+					<h4>Ordered</h4>
+					<ol>
+						<li>Dolor pulvinar etiam.</li>
+						<li>Etiam vel felis viverra.</li>
+						<li>Felis enim feugiat.</li>
+						<li>Dolor pulvinar etiam.</li>
+						<li>Etiam vel felis lorem.</li>
+						<li>Felis enim et feugiat.</li>
+					</ol>
+					<h4>Icons</h4>
+					<ul class="icons">
+						<li><a href="#" class="icon brands fa-twitter"><span
+								class="label">Twitter</span></a></li>
+						<li><a href="#" class="icon brands fa-facebook-f"><span
+								class="label">Facebook</span></a></li>
+						<li><a href="#" class="icon brands fa-instagram"><span
+								class="label">Instagram</span></a></li>
+						<li><a href="#" class="icon brands fa-github"><span
+								class="label">Github</span></a></li>
+					</ul>
+
+					<h4>Actions</h4>
+					<ul class="actions">
+						<li><a href="#" class="button primary">Default</a></li>
+						<li><a href="#" class="button">Default</a></li>
+					</ul>
+					<ul class="actions stacked">
+						<li><a href="#" class="button primary">Default</a></li>
+						<li><a href="#" class="button">Default</a></li>
+					</ul>
+				</section>
+
+				<section>
+					<h3 class="major">Table</h3>
+					<h4>Default</h4>
+					<div class="table-wrapper">
+						<table>
+							<thead>
+								<tr>
+									<th>Name</th>
+									<th>Description</th>
+									<th>Price</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>Item One</td>
+									<td>Ante turpis integer aliquet porttitor.</td>
+									<td>29.99</td>
+								</tr>
+								<tr>
+									<td>Item Two</td>
+									<td>Vis ac commodo adipiscing arcu aliquet.</td>
+									<td>19.99</td>
+								</tr>
+								<tr>
+									<td>Item Three</td>
+									<td>Morbi faucibus arcu accumsan lorem.</td>
+									<td>29.99</td>
+								</tr>
+								<tr>
+									<td>Item Four</td>
+									<td>Vitae integer tempus condimentum.</td>
+									<td>19.99</td>
+								</tr>
+								<tr>
+									<td>Item Five</td>
+									<td>Ante turpis integer aliquet porttitor.</td>
+									<td>29.99</td>
+								</tr>
+							</tbody>
+							<tfoot>
+								<tr>
+									<td colspan="2"></td>
+									<td>100.00</td>
+								</tr>
+							</tfoot>
+						</table>
+					</div>
+
+					<h4>Alternate</h4>
+					<div class="table-wrapper">
+						<table class="alt">
+							<thead>
+								<tr>
+									<th>Name</th>
+									<th>Description</th>
+									<th>Price</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>Item One</td>
+									<td>Ante turpis integer aliquet porttitor.</td>
+									<td>29.99</td>
+								</tr>
+								<tr>
+									<td>Item Two</td>
+									<td>Vis ac commodo adipiscing arcu aliquet.</td>
+									<td>19.99</td>
+								</tr>
+								<tr>
+									<td>Item Three</td>
+									<td>Morbi faucibus arcu accumsan lorem.</td>
+									<td>29.99</td>
+								</tr>
+								<tr>
+									<td>Item Four</td>
+									<td>Vitae integer tempus condimentum.</td>
+									<td>19.99</td>
+								</tr>
+								<tr>
+									<td>Item Five</td>
+									<td>Ante turpis integer aliquet porttitor.</td>
+									<td>29.99</td>
+								</tr>
+							</tbody>
+							<tfoot>
+								<tr>
+									<td colspan="2"></td>
+									<td>100.00</td>
+								</tr>
+							</tfoot>
+						</table>
+					</div>
+				</section>
+
+				<section>
+					<h3 class="major">Buttons</h3>
+					<ul class="actions">
+						<li><a href="#" class="button primary">Primary</a></li>
+						<li><a href="#" class="button">Default</a></li>
+					</ul>
+					<ul class="actions">
+						<li><a href="#" class="button">Default</a></li>
+						<li><a href="#" class="button small">Small</a></li>
+					</ul>
+					<ul class="actions">
+						<li><a href="#" class="button primary icon solid fa-download">Icon</a></li>
+						<li><a href="#" class="button icon solid fa-download">Icon</a></li>
+					</ul>
+					<ul class="actions">
+						<li><span class="button primary disabled">Disabled</span></li>
+						<li><span class="button disabled">Disabled</span></li>
+					</ul>
+				</section>
+
+				<section>
+					<h3 class="major">Form</h3>
+					<form method="post" action="#">
+						<div class="fields">
+							<div class="field half">
+								<label for="demo-name">Name</label> <input type="text"
+									name="demo-name" id="demo-name" value="" placeholder="Jane Doe" />
+							</div>
+							<div class="field half">
+								<label for="demo-email">Email</label> <input type="email"
+									name="demo-email" id="demo-email" value=""
+									placeholder="jane@untitled.tld" />
+							</div>
+							<div class="field">
+								<label for="demo-category">Category</label> <select
+									name="demo-category" id="demo-category">
+									<option value="">-</option>
+									<option value="1">Manufacturing</option>
+									<option value="1">Shipping</option>
+									<option value="1">Administration</option>
+									<option value="1">Human Resources</option>
+								</select>
+							</div>
+							<div class="field half">
+								<input type="radio" id="demo-priority-low" name="demo-priority"
+									checked> <label for="demo-priority-low">Low</label>
+							</div>
+							<div class="field half">
+								<input type="radio" id="demo-priority-high" name="demo-priority">
+								<label for="demo-priority-high">High</label>
+							</div>
+							<div class="field half">
+								<input type="checkbox" id="demo-copy" name="demo-copy">
+								<label for="demo-copy">Email me a copy</label>
+							</div>
+							<div class="field half">
+								<input type="checkbox" id="demo-human" name="demo-human" checked>
+								<label for="demo-human">Not a robot</label>
+							</div>
+							<div class="field">
+								<label for="demo-message">Message</label>
+								<textarea name="demo-message" id="demo-message"
+									placeholder="Enter your message" rows="6"></textarea>
+							</div>
+						</div>
+						<ul class="actions">
+							<li><input type="submit" value="Send Message"
+								class="primary" /></li>
+							<li><input type="reset" value="Reset" /></li>
+						</ul>
+					</form>
+				</section>
+
+			</article>
+
+		</div>
+
+		<!-- Footer -->
+		<footer id="footer"> </footer>
+
+	</div>
+
+	<!-- BG -->
+	<div id="bg"></div>
+
+	<!-- Scripts -->
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/browser.min.js"></script>
+	<script src="assets/js/breakpoints.min.js"></script>
+	<script src="assets/js/util.js"></script>
+	<script src="assets/js/main.js"></script>
+
+</body>
+</html>

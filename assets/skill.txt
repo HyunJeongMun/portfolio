@@ -1,0 +1,27 @@
+Network
+TCP/IP 소켓 프로그래밍
+Cisco 라우터 관리
+IPv6관련 논문 프로젝트
+사용언어 : C언어
+사용프로그램 : GNS3, Wireshark, Visual Studio, Packet Tracer, VMWare
+
+System
+Ubuntu, Debian, CentOS Linux
+IoT관련 Arduino, Raspberry Pi 사용
+사용언어 : C언어
+사용프로그램 : VMWare, PuTTY
+
+Web
+MVC 패턴 및 DB연동(JDBC) 웹 프로젝트 진행 
+- N차 창작 가능한 사이트
+사용언어 : Java, Html, JavaScript, jQuery, SQL, JSP, PHP, XML
+사용 프로그램 : Eclipse, Apache Tomcat, ERWin, SQL Developer
+
+Mobile
+앱과 웹 서버 연동 및 API 연동
+API 및 DB연동 기반의 여성을 위한 앱 개발
+API 및 웹 서버 연동을 구현한 주변 병원 찾기
+사용언어 : JAVA
+사용프로그램 : Android Studio
+
+
